@@ -12,3 +12,10 @@ MySQL database (database for the wordpress site)
 Grafana (visualisation for monitoring the containers)
 INfluxDB database (database for the grafana)
 From the outside world, the access to the cluster is made through a load balancer. MetalLB is used for this purpose. It will publish only one IP to access the whole cluster.
+
+
+
+# SCHEMA OF OUR CLUSTER
+
+![schema](https://user-images.githubusercontent.com/61160587/116482768-1b2dc300-a886-11eb-9b11-10b754452809.png)
+
