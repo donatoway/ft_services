@@ -34,7 +34,7 @@ publish only one IP to access the whole cluster.
 
 -to set up the cluster you will need to run << sh setup.sh >>
 
--to clean and delete images, containers, pods and volumes << run sh clean.sh >>
+-to clean and delete images, containers, pods and volumes run <<  sh clean.sh >>
 
 # Kubernets dashboard
 
