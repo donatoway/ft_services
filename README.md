@@ -38,25 +38,36 @@ publish only one IP to access the whole cluster.
 
 # Kubernets dashboard
 
-Automatically in 15 seconds you will be directed to the kubernetes dashboard page, you will be asked for the token, this will already be copied by default, just paste and enter the dashboard
+After you started setup.sh Automatically in 15 seconds you will be directed to the kubernetes dashboard page, you will be asked for the token, this will already be copied by default, just paste and enter the dashboard
 
 it will display something like that but with all images
 
 ![23487-42-ft_services-install-nginx-with-kubernetes-by-fo-1ukmbf99gh1bpxadx9ea5qa](https://user-images.githubusercontent.com/61160587/116483609-af4c5a00-a887-11eb-8995-8091db737f66.png)
 
-#how to access services
+# how to access services
 
--Wordpress = localost:5050
+-Wordpress = localhost:5050
 
--phpmyadmin = localost:5000
+-phpmyadmin = localhost:5000
 
--grafana = localost:3000
+-grafana = localhost:3000
 
 -nginx = localhost:80
 
 user : admin
 
 password : admin
+
+# ftps
+
+to test ftps you can connect via filezilla with localhost: 21 admin admin
+
+
+
+![images](https://user-images.githubusercontent.com/61160587/116485287-2505f500-a88b-11eb-9d00-0169ef70ef4d.png)
+
+
+
 
 
 
