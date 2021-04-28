@@ -52,7 +52,7 @@ it will display something like that but with all images
 
 -grafana = localhost:3000
 
--nginx = localhost:80
+-nginx = localhost
 
 user : admin
 
